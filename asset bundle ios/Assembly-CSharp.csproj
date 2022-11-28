@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\LoadBundle.cs" />
+    <Compile Include="Assets\Mobile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -652,6 +653,15 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.iOS">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.Android">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
